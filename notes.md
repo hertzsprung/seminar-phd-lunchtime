@@ -8,3 +8,7 @@
 - TODO: alternatives to lat-lon: "quasi-uniform" meshes
 - TODO: disadvantages of TF 
 - TODO: alternatives to TF
+
+- slanted cells
+- cubicFit description
+- highOrderFit (no maths, just description)
