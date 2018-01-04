@@ -1,0 +1,48 @@
+\documentclass{article}
+\usepackage[paperwidth=6in,paperheight=14in,margin=0in]{geometry}
+\usepackage{mathptmx}%{times}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{color}
+\usepackage{helvet}
+\usepackage{amsmath}
+\usepackage[EULERGREEK]{sansmath}
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{eufrak}
+
+\renewcommand{\familydefault}{\sfdefault}
+\newcommand{\moment}{\mathfrak{m}}
+\newcommand{\vect}{\mathbf}
+\sansmath
+
+\setlength{\parindent}{0pt}
+\definecolor{c1}{RGB}{27,158,119}
+\definecolor{c2}{RGB}{217,95,2}
+\definecolor{c3}{RGB}{117,112,179}
+\definecolor{c9}{RGB}{231,41,138}
+\definecolor{desel}{RGB}{212,212,212}
+\begin{document}
+
+\begin{equation*}
+	\begin{bmatrix}
+		\moment_1^{\vect{p}_1}/V_1 & \cdots & \moment_1^{\vect{p}_m}/V_1 \\
+		\vdots & & \vdots \\
+		\moment_n^{\vect{p}_1}/V_n & \cdots & \moment_n^{\vect{p}_m}/V_n
+	\end{bmatrix}
+	\begin{bmatrix}
+		a_{\:\vect{p}_1} \\
+		\vdots \\
+		a_{\:\vect{p}_m}
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+		\langle \phi \rangle_1 \\
+		\vdots \\
+		\langle \phi \rangle_n
+	\end{bmatrix}
+\end{equation*}
+
+\hspace*{3em}$\moment_V^\vect{p} = \int_V \vect{x}^\vect{p} dV$ is the $\vect{p}$th moment of volume $V$
+
+\end{document}
