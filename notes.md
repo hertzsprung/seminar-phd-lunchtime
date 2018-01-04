@@ -58,4 +58,10 @@
 
 # cubicFit
 
+## Results
+
+- schaerAdvect
+  - a standard test case, horizontal wind above the mountain
+- mountainAdvect
+
 - highOrderFit (no maths, just description)
